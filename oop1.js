@@ -17,8 +17,8 @@ class Employee {
         `);
     }
 }
-const emp1=new Employee(1000, "Neel Patel","devOps",56000)
-const emp2=new Employee(1001, "Laisha Agarwal","Testing",46000)
+const emp1 = new Employee(1000, "Neel Patel", "devOps", 56000)
+const emp2 = new Employee(1001, "Laisha Agarwal", "Testing", 46000)
 
 emp1.printDetails()
 emp2.printDetails()

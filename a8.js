@@ -25,4 +25,4 @@ while (low <= up) {
     }
 }
 console.log("Execution time:", count);
-console.log(isPresent?"number found" : "number not found");
+console.log(isPresent ? "number found" : "number not found");

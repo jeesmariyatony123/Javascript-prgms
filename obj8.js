@@ -84,34 +84,34 @@ console.log(credictTrans);
 
 //7 find total credit amount to 1002
 console.log(`7.------------------------`);
-creditAmount=credictTrans.map(item => item.amount).reduce((amt1, amt2) => amt1 + amt2)
+creditAmount = credictTrans.map(item => item.amount).reduce((amt1, amt2) => amt1 + amt2)
 console.log(` total credit amount to 1002: ${creditAmount}`);
 
 //8. print debit transaction of account 1002
 console.log(`8. ------------------------`);
 console.log(`transaction of account 1002:`);
-debitTrans=accounts.find(item=>item.acno===1002).transaction
+debitTrans = accounts.find(item => item.acno === 1002).transaction
 console.log(debitTrans);
 
 //9. print total debit amount of 1002
 console.log(`9. ------------------------`);
-debitAmount=debitTrans.map(item => item.amount).reduce((amt1, amt2) => amt1 + amt2)
+debitAmount = debitTrans.map(item => item.amount).reduce((amt1, amt2) => amt1 + amt2)
 console.log(`total debit amount of 1002: ${debitAmount}`);
 
 //10. print current balance of 1002
 console.log(`10 ------------------------`);
-currentBalance=accounts.find(item=>item.acno===1002).balance+creditAmount
+currentBalance = accounts.find(item => item.acno === 1002).balance + creditAmount
 console.log(`current balance of 1002: ${currentBalance}`);
 
 //11. print transaction history of 1002
 console.log(`11 ------------------------`);
 // transactionHistory=[credictTrans,debitTrans]
-transactionHistory=[...credictTrans,...debitTrans]
+transactionHistory = [...credictTrans, ...debitTrans]
 
 console.log(`transaction history of 1002`);
 console.log(transactionHistory);
 
 
 //9. print highest balance account details
-highest=accounts.reduce((acc1,acc2)=>acc1.balance>acc2.balance)
+highest = accounts.reduce((acc1, acc2) => acc1.balance > acc2.balance)
 console.log();

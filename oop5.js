@@ -1,10 +1,10 @@
-const Boleno ={
-    price:"15 lakhs",
-    varient:["automatic","manual"]
+const Boleno = {
+    price: "15 lakhs",
+    varient: ["automatic", "manual"]
 }
-const Glanza ={
-    price:"17 lakhs"
+const Glanza = {
+    price: "17 lakhs"
 }
 
-Glanza.__proto__=Boleno
+Glanza.__proto__ = Boleno
 console.log(Glanza.varient);

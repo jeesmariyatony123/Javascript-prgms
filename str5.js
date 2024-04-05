@@ -17,6 +17,6 @@ products = [
 //output= ['hide and seek','lays','parleG','good day']
 
 console.log(`display all products which includes given string 'a' from the given array: `);
-search="ay"
-output=products.filter(item=>item[1].includes(search)).map(item=>item[1])
+search = "ay"
+output = products.filter(item => item[1].includes(search)).map(item => item[1])
 console.log(output);

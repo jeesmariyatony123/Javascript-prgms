@@ -8,4 +8,4 @@ while (num > 0) {
     reverseStr += lastDigit
     num = Math.floor(num / 10)
 }
-console.log(input==reverseStr?`${input} is a pallindrome`:`${input} is not a pallindrome`);
+console.log(input == reverseStr ? `${input} is a pallindrome` : `${input} is not a pallindrome`);

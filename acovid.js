@@ -48,7 +48,7 @@ console.log(`---district details:----
             no.of curred cases: ${cov[4]}
             1st dose vaccine count: ${cov[5]}
             2nd dose vaccine count: ${cov[6]}`
-            );
+);
 
 
 //8. Print total number of positive cases = map,reduce

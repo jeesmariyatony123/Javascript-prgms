@@ -10,7 +10,7 @@
 //     return num%2==0?"Even number":"odd number"
 // }
 //arrow
-const oddeven = num => num%2==0?"Even number":"odd number"
+const oddeven = num => num % 2 == 0 ? "Even number" : "odd number"
 console.log(oddeven(3));
 
 

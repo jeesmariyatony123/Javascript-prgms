@@ -10,11 +10,11 @@ for (index = 0; index < months.length; index++) {
     console.log(months[index]);
 }
 console.log("Displaying arrray items one by one using for of loop");
-for (let month of months){
+for (let month of months) {
     console.log(month);
 }
 console.log("Displaying arrray items one by one using for in loop");
-for (let index in months){
+for (let index in months) {
     console.log(months[index]);
 }
 
@@ -22,9 +22,9 @@ for (let index in months){
 
 months.push("may")
 months.unshift("Dec")
-console.log("Months:",months);
+console.log("Months:", months);
 //delete data
 months.pop()
-console.log("months:",months);
+console.log("months:", months);
 months.shift()
-console.log("months:",months);
+console.log("months:", months);

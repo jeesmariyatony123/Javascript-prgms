@@ -10,6 +10,6 @@ output = {}
 //if word is in output:increment value of key
 //not word in output:insert word as key and value as 1
 //in /haown
-wordArray.forEach(word=>output.hasOwnProperty(word)?output[word]+=1:output[word]=1)
+wordArray.forEach(word => output.hasOwnProperty(word) ? output[word] += 1 : output[word] = 1)
 //display output
 console.log(output);

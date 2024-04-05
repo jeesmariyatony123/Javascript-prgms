@@ -18,10 +18,10 @@ console.log(`highest number in the given array : ${highest}`);
 
 //w.a.p to find smallest number in the given array
 
-smallest= numArray[0]
-for(let num of numArray){
-    if(num<smallest){
-        smallest=num
+smallest = numArray[0]
+for (let num of numArray) {
+    if (num < smallest) {
+        smallest = num
     }
 }
 console.log(`smallest number in the given array : ${smallest}`);

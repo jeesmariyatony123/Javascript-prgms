@@ -1,5 +1,5 @@
 function digitSum(num) {
-    sum=0
+    sum = 0
     while (num > 0) {
         lastDigit = num % 10
         sum += lastDigit
